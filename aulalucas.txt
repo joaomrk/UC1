@@ -1,0 +1,53 @@
+resultado = numero1 == numero2
+print(numero1, "=", numero2,'?',resultado)[?2004l
+hello world
+5 = 8 ? false
+5 != 8 ? true
+5 > 8 ? false
+5 < 8 ? true
+5 >= 8 ? false
+5 <= 8 ? true
+[?2004h    
+
+
+var numero1 = 5;
+var numero2 = 8;
+var resultado;
+/*
+resultado = numero1 == numero2
+print (numero1, "=", numero2, '?', resultado)
+  resultado = numero1 != numero2
+print (numero1, "!=", numero2, '?', resultado)
+  resultado = numero1 > numero2
+print (numero1, ">", numero2, '?', resultado)
+  resultado = numero1 < numero2
+print (numero1, "<", numero2, '?', resultado)
+  resultado = numero1 >= numero2
+print (numero1, ">=", numero2, '?', resultado)
+  resultado = numero1 <= numero2
+print (numero1, "<=", numero2, '?', resultado)
+*/
+print ("hello world");
+var a1 = true && true;//T && T retorna true
+print(a1)
+var a2 = true && false;//T && T retorna false
+print(a2)
+var a3 = false && true;//T && T retorna false
+print(a3)
+var a4 = true && 3 == 4;//T && T retorna false
+print(a4)
+var a5 = 'gato' && 'cão';//T && T retorna cão
+print(a5)
+var a6 = false && 'gato';//T && T retorna false
+print(a6)
+var a7 = 'gato' && false;//T && F retorna false
+print(a7)
+
+let idade = 17 
+var status = idade >= 18?'adulto':'de menor';
+print(status);
+
+var palavra1 = 'alfa';
+var palavra2 = 'beto';
+var resultado = palavra1+palavra2
+print(resultado)
