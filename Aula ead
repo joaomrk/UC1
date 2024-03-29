@@ -1,0 +1,77 @@
+const ask = require('readline-sync');
+
+function infosPessoaisSP() {
+    console.log('Meu nome é Joao marco e eu tenho 23 anos. Moro em Sao leo e gosto de uma pinga')
+}
+
+function infosPessoaisCP(nome, idade, cidade, gostos){
+    return(`Meu nome é ${nome} e eu tenho ${idade} anos. Moro em ${cidade} e sou ${gostos}`)
+}
+
+console.log(infosPessoaisCP('juauzito', 34, 'nova york', 'amoroso com meus gatos'))
+
+// exercicio 
+
+//const ask = require('readline-sync');
+
+
+
+//a)
+
+function soma(num1, num2){
+
+    return num1+num2
+
+}
+
+
+
+console.log(soma(3, 6))
+
+
+
+
+
+//b)
+
+function maiorOuIgual(num1, num2){
+
+    return num1>=num2
+
+}
+
+
+
+console.log(maiorOuIgual(3, 7))
+
+
+
+
+
+//c)
+
+function verificaPar(num){
+
+    return num%2 === 0
+
+}
+
+
+
+console.log(verificaPar(4))
+
+
+
+
+
+//d)
+
+function tamanhoEMaiusculo(palavra){
+
+    console.log(`${palavra.toUpperCase()} tem ${palavra.length} caracteres`)
+
+}
+
+
+
+tamanhoEMaiusculo('Ryan Gosling')
