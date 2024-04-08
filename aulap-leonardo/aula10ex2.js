@@ -1,0 +1,5 @@
+const ask = require("readline-sync")
+let frase = ask.question("qual a frase que voce quer testar? ")
+console.log(frase.toUpperCase())
+console.log(novaFrase = frase.replaceAll('o','i'))
+console.log(frase.length)
